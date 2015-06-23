@@ -86,7 +86,13 @@ public class Context implements Serializable {
         this.id = id;
     }
 
-    public Context(Long id, long subject, boolean isValid, boolean isActive, boolean toCda, Date lastUpdate) {
+    public Context(
+            Long id,
+            long subject,
+            boolean isValid,
+            boolean isActive,
+            boolean toCda,
+            Date lastUpdate) {
         this.id = id;
         this.subject = subject;
         this.isValid = isValid;
